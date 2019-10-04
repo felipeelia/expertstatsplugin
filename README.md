@@ -45,16 +45,17 @@ Follow these steps:
 1. Download and install the plugin https://github.com/afragen/github-updater to your wp site;
 2. Ensure you have access to the private repo for this plugin!
 3. In Github, click your picture (top right) to get the dropdown; and hit "Settings"
-4. Under here select "Personal Access Tokens" and generate a new token (or use an existing one with the right permissions!) - give it a name like "github updater" or similar for future reference.
-5. Check (tick, select) the box next to "Repo" and the three under this can stay selected.
-6. Copy your token and keep it in a safe place if you want to use it again.
-7. On your wp website, open Settings > Github Updater and if you already have the expertstatsplugin installed, this will show up. You will need to place your key to get updates.
+4. Select "Developer settings"
+5. Under here select "Personal access tokens" and generate a new token (or use an existing one with the right permissions!) - give it a name like "github updater" or similar for future reference.
+6. Check (tick, select) these three boxes under "repo": "repo:status", "repo_deployment", and "public_repo".
+7. Copy your token and keep it in a safe place if you want to use it again.
+8. On your wp website, open Settings > Github Updater and if you already have the expertstatsplugin installed, this will show up. You will need to place your key to get updates.
 
 If you don't have it installed, you can:
 
 1. Hit the "Add plugin" tab
 2. Paste in https://github.com/codeablehq/expertstatsplugin/ under URL
-3. Leave the "github" part
+3. Leave the "Repository Branch" field empty and the "Remote Repository Host" field as "GitHub"
 4. Paste in the github key you just generated,
 5. Hit "Install plugin"
 
